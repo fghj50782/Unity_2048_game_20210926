@@ -172,3 +172,4 @@ Received Import Request.
 Start importing Assets/Quantum.otf using Guid(e8eb2f32c3810a84da5dabd1368dc75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1adbb6245654e77ab15e1690c5700c44') in 0.036995 seconds 
   Import took 0.057609 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
