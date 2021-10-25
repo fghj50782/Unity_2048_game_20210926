@@ -135,12 +135,12 @@ GameObject:
   - component: {fileID: 495240691}
   - component: {fileID: 495240690}
   m_Layer: 0
-  m_Name: "\u8CA8\u8ECA\u5427"
+  m_Name: "\u6CB9\u7F50\u8ECA"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &495240690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -153,6 +153,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94e229c79f070d0458c9685e19eea532, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cc: 4000
+  weigh: 3.5
+  brand: BMW
+  hasSkyWindow: 0
+  color1: {r: 0, g: 0, b: 0, a: 0}
+  colorRed: {r: 1, g: 0, b: 0, a: 1}
+  colorCustom: {r: 0, g: 0, b: 1, a: 1}
+  colorCustomAlpga: {r: 0, g: 1, b: 0, a: 0.3}
+  v2: {x: 0, y: 0}
+  v20ne: {x: 1, y: 1}
+  v2up: {x: 0, y: 1}
+  v2Custom: {x: 7, y: 9}
+  kc: 0
+  kcW: 119
+  kcML: 323
+  carBox: {fileID: 679784446}
+  car0il: {fileID: 495240689}
+  trabox: {fileID: 0}
+  sprBox: {fileID: 0}
+  cam: {fileID: 0}
 --- !u!212 &495240691
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -313,7 +333,7 @@ GameObject:
   - component: {fileID: 679784448}
   - component: {fileID: 679784447}
   m_Layer: 0
-  m_Name: "\u8ECA\u5427"
+  m_Name: "\u7BB1\u578B\u8ECA"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -331,6 +351,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94e229c79f070d0458c9685e19eea532, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cc: 2000
+  weigh: 3.5
+  brand: BMW
+  hasSkyWindow: 0
+  color1: {r: 0, g: 0, b: 0, a: 0}
+  colorRed: {r: 1, g: 0, b: 0, a: 1}
+  colorCustom: {r: 0, g: 0, b: 1, a: 1}
+  colorCustomAlpga: {r: 0, g: 1, b: 0, a: 0.3}
+  v2: {x: 0, y: 0}
+  v20ne: {x: 1, y: 1}
+  v2up: {x: 0, y: 1}
+  v2Custom: {x: 7, y: 9}
+  kc: 0
+  kcW: 119
+  kcML: 323
+  carBox: {fileID: 679784446}
+  car0il: {fileID: 0}
+  trabox: {fileID: 679784449}
+  sprBox: {fileID: 679784448}
+  cam: {fileID: 619061387}
 --- !u!212 &679784448
 SpriteRenderer:
   m_ObjectHideFlags: 0
